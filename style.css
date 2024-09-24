@@ -1,0 +1,450 @@
+
+		/* image source=https://assets.nflxext.com/ffe/siteui/vlv3/9134db96-10d6-4a64-a619-a21da22f8999/a449fabb-05e4-4c8a-b062-b0bec7d03085/IN-en-20240115-trifectadaily-perspective_alpha_website_medium.jpg */
+		* {
+			margin: 0;
+			padding: 0;
+			font-family: sans-serif;
+			color: white;
+			letter-spacing: 0px;
+		}
+
+		body {
+			background: rgb(32, 32, 32);  
+            /* width: 100vw; */
+		}
+
+		.maincontainer {
+			/* height: 110vh;
+			width: 100vw; */
+			background: url(https://assets.nflxext.com/ffe/siteui/vlv3/9134db96-10d6-4a64-a619-a21da22f8999/a449fabb-05e4-4c8a-b062-b0bec7d03085/IN-en-20240115-trifectadaily-perspective_alpha_website_medium.jpg);
+            background-repeat: no-repeat;
+            /* background-position: center center; */
+            background-size: max(1000px, 100vw);
+		}
+
+		.mainchildcontainer {
+			background: rgba(0, 0, 0, 0.65);
+			height: 110vh;
+			width: 100vw;
+		}
+
+		.navbar {
+			 display: flex ;
+		}
+
+		.netflixlogo {
+			position: relative;
+            top: 15px;
+            left: 160px;
+			color: red;
+			font-size: 50px;
+            font-weight: bolder;
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			cursor: pointer;
+			/* margin-left: 160px; */
+			/* margin-top: 15px; */
+		}
+
+		.language {
+			/* margin-top: 30px;
+			margin-left: 48%; */
+            position: relative;
+            top: 20px;
+            left: 57%;
+			height: 25px;
+			width: 110px;
+			padding: 5px;
+			color: white;
+			background: rgba(0, 0, 0, 0.5);
+			border: 1px solid gray;
+			border-radius: 5px;
+		}
+		.lang_list{
+			background-color: white;
+			color: black;
+			list-style-type: none;
+			padding: 5px;
+		}
+		.lang_list:hover{
+			background-color: rgba(6, 99, 240, 0.877);
+			color: white;
+		}
+
+		.signinbutton {
+			height: 35px;
+			width: 80px;
+			font-size: large;
+            position: relative;
+            top: 20px;
+            left: 58%;
+
+			/* margin-left: 20px;
+			margin-top: 30px; */
+			border-radius: 5px;
+			border: none;
+			color: white;
+			background: red;
+			cursor: pointer;
+		}
+
+		.signinbutton:active {
+			background: transparent;
+			border: 2px solid white;
+		}
+
+		.mainchildcontainer2 {
+			/* margin-left: 20%;
+			margin-top: 14%; */
+            position: relative;
+            top: 30%;
+            left: 16%;
+			height: 60%;
+		}
+
+		.maintext {
+			color: white;
+			display: block;
+			letter-spacing: 1px;
+			font-size: 2.8em;
+			font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+			font-weight: 900;
+		}
+
+		.mainpara1 {
+			display: block;
+			color: white;
+			font-size: 1.5em;
+			margin-top: 20px;
+			margin-left: 20%;
+		}
+
+		.mainpara2 {
+			display: block;
+			color: white;
+			font-size: 1.3em;
+			margin-top: 20px;
+			margin-left: 8%;
+		}
+
+		.emailinput {
+			height: 35px;
+			width: 26%;
+			display: inline-block;
+			margin-left: 11%;
+			margin-top: 20px;
+			background: rgba(0, 0, 0, 0.5);
+			border: 1px solid grey;
+			border-radius: 5px;
+			padding: 10px;
+			font-size: larger;
+			color: white;
+		}
+
+		.getstartedbutton {
+			height: 50px;
+			width: 17%;
+			margin-left: 5px;
+			font-size: 25px;
+			border-radius: 5px;
+			border: none;
+			background: red;
+			color: white;
+			cursor: pointer;
+		}
+
+		.getstartedbutton:active {
+			background: rgba(0, 0, 0, 0.5);
+			border: 1px solid white;
+		}
+        /* @media(widht){
+            .mainchildcontainer:
+        } */
+		.container2 {
+			margin-top: 10px;
+			height: 78vh;
+			width: 100vw;
+			display: flex;
+			align-items: center;
+			background: black;
+		}
+
+		.cont2child {
+			width: 35%;
+			margin-left: 13%;
+		}
+
+		.cont2heading {
+			font-size: 3em;
+			font-weight: 900;
+			color: white;
+		}
+
+		.cont2text {
+			font-weight: 400;
+			font-size: 1.8em;
+			margin-top: 10px;
+			color: white;
+		}
+
+		.cont2image {
+			/* margin-top: -100px; */
+			height: 55vh;
+			width: 35vw;
+			margin-left: 5%;
+		}
+
+		.container3 {
+			height: 78vh;
+			width: 100vw;
+			display: flex;
+			align-items: center;
+			background-color: black;
+			margin-top: 10px;
+		}
+
+		.cont3child {
+			width: 40%;
+			margin-left: 10%;
+		}
+
+		.cont3image {
+			height: 55vh;
+			width: 37vw;
+			margin-left: 30%;
+		}
+
+		.cont3heading {
+			font-size: 3em;
+			font-weight: 900;
+			color: white;
+		}
+
+		.cont3text {
+			font-weight: 400;
+			font-size: 1.8em;
+			margin-top: 10px;
+			color: white;
+		}
+
+		.container4 {
+			height: 78vh;
+			width: 100vw;
+			display: flex;
+			align-items: center;
+			background-color: black;
+			margin-top: 10px;
+		}
+
+		.cont4child {
+			width: 35%;
+			margin-left: 10%;
+		}
+
+		.cont4heading {
+			font-size: 3em;
+			font-weight: 900;
+			color: white;
+		}
+
+		.cont4text {
+			font-weight: 400;
+			font-size: 1.8em;
+			margin-top: 10px;
+			color: white;
+		}
+
+		.cont4image {
+			height: 55vh;
+			width: 37vw;
+			margin-left: 50px;
+
+		}
+
+		.container5 {
+			height: 78vh;
+			width: 100vw;
+			display: flex;
+			align-items: center;
+			background-color: black;
+			margin-top: 10px;
+		}
+
+		.cont5child {
+			width: 40%;
+			margin-left: 12%;
+		}
+
+		.cont5image {
+			height: 55vh;
+			width: 37vw;
+			margin-left: 30%;
+		}
+
+		.cont5heading {
+			font-size: 3em;
+			font-weight: 900;
+			color: white;
+		}
+
+		.cont5text {
+			font-weight: 400;
+			font-size: 1.8em;
+			margin-top: 10px;
+			color: white;
+		}
+
+
+		.container6 {
+			min-height: 140vh;
+			margin-top: 10px;
+			background: black;
+			display: flex;
+			justify-content: center;
+		}
+
+		.cont6heading {
+			font-size: 3em;
+			font-weight: 900;
+			text-align: center;
+			color: white;
+			margin-top: 50px;
+			margin-bottom: 20px;
+		}
+
+		.box1,
+		.box2,
+		.box3,
+		.box4,
+		.box5,
+		.box6 {
+			height: 85px;
+			width: 75vw;
+			background: rgb(32, 32, 32);
+			cursor: pointer;
+			margin-top: 8px;
+			transition: 0.3s;
+		}
+
+		.box1:hover,
+		.box2:hover,
+		.box3:hover,
+		.box4:hover,
+		.box5:hover,
+		.box6:hover {
+			background: rgb(51, 51, 51);
+		}
+
+		.boxtext {
+			font-size: 25px;
+			color: white;
+			padding-left: 28px;
+			display: flex;
+			align-items: center;
+			letter-spacing: 1px;
+		}
+
+		.plussign {
+			/* margin-left: 730px; */
+			margin-left: auto;
+			font-size: 70px;
+			font-weight: 10;
+		}
+
+		a {
+			/*ANCHOR TAG STYLE main cont sign in button*/
+			color: white;
+			text-decoration: none;
+		}
+
+		.cont6text {
+			text-align: center;
+			font-size: 1.2em;
+			margin-top: 50px;
+		}
+
+		.cont6input {
+			height: 30px;
+			width: 35%;
+			display: inline-block;
+			margin-left: 22%;
+			margin-top: 20px;
+			background: rgba(0, 0, 0, 0.5);
+			border: 1px solid grey;
+			border-radius: 5px;
+			padding: 10px;
+			font-size: larger;
+			color: white;
+		}
+
+		.cont6signInbutton {
+			height: 50px;
+			width: 17%;
+			margin-left: 5px;
+			font-size: 25px;
+			border-radius: 5px;
+			border: none;
+			background: red;
+			color: white;
+			cursor: pointer;
+		}
+
+		.cont6signInbutton:active {
+			background: rgba(0, 0, 0, 0.5);
+			border: 1px solid white;
+		}
+
+		footer {
+			min-height: 60vh;
+			width: 100vw;
+			position: absolute;
+			background: black;
+			margin-top: 10px;
+		}
+
+		.footertextcont {
+			height: 8%;
+			width: 100vw;
+			display: flex;
+			flex-wrap: wrap;
+			margin: auto;
+			margin-top: 50px;
+			background-color: black;
+		}
+
+		.footer_list {
+			height: 0px;
+			width: 197px;
+			margin-top: 20px;
+			display: inline-block;
+			padding: 16px 0px 0px 120px;
+			color: grey;
+		}
+
+		/* footer anchor */
+		.footeranchor {
+			/* margin-top: 20px; */
+			text-decoration: underline;
+			color: grey;
+		}
+
+		.footer_language {
+			margin-top: 30px;
+			margin-left: 10%;
+			height: 25px;
+			width: 120px;
+			color: white;
+			background: rgba(0, 0, 0, 0.5);
+			border: 1px solid gray;
+			border-radius: 5px;
+		}
+
+		.footernetflixtext {
+			margin-left: 10%;
+			margin-top: 30px;
+			color: grey;
+		}
+
+		.tel_NO {
+			color: grey;
+			padding-left: 120px;
+		}
